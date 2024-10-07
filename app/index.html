@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/favicon/favicon-48x48.png" sizes="48x48" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="images/favicon/site.webmanifest" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <nav class="navbar">
+      <div class="navbar__top">
+        <a href="#!" class="logo">
+          <img class="logo__img" src="images/logo.svg" alt="logo">
+          <span class="logo__version">v.01</span>
+        </a>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#!">
+              <div class="menu__link-box">
+                <svg class="icon icon-right" width="24" height="24">
+                  <use xlink:href="images/icons.svg#key"></use>
+                </svg>
+                Dashboard
+              </div>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#!">
+              <div class="menu__link-box">
+                <svg class="icon icon-right" width="24" height="24">
+                  <use xlink:href="images/icons.svg#d-square"></use>
+                </svg>
+                Product
+              </div>
+              <svg class="icon icon-right" width="16" height="16">
+                <use xlink:href="images/icons.svg#ight"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link active" href="#!">
+              <div class="menu__link-box">
+                <svg class="icon" width="24" height="24">
+                  <use xlink:href="images/icons.svg#user"></use>
+                </svg>
+                Customers
+              </div>
+              <svg class="icon icon-right" width="16" height="16">
+                <use xlink:href="images/icons.svg#ight"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#!">
+              <div class="menu__link-box">
+                <svg class="icon icon-right" width="24" height="24">
+                  <use xlink:href="images/icons.svg#wallety-2"></use>
+                </svg>
+                Income
+              </div>
+              <svg class="icon icon-right" width="16" height="16">
+                <use xlink:href="images/icons.svg#ight"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#!">
+              <div class="menu__link-box">
+                <svg class="icon icon-right" width="24" height="24">
+                  <use xlink:href="images/icons.svg#discount"></use>
+                </svg>
+                Promote
+              </div>
+              <svg class="icon icon-right" width="16" height="16">
+                <use xlink:href="images/icons.svg#ight"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#!">
+              <div class="menu__link-box">
+                <svg class="icon" width="24" height="24">
+                  <use xlink:href="images/icons.svg#message"></use>
+                </svg>
+                Help
+              </div>
+              <svg class="icon" width="16" height="16">
+                <use xlink:href="images/icons.svg#ight"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__user">
+        <img class="navbar__user-img" src="images/users/user-1.jpg" alt="user">
+        <div class="navbar__user-box">
+          <span class="navbar__user-name">
+            Evano
+          </span>
+          <span class="navbar__user-role">
+            Project Manager
+          </span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <button class="sidebar__btn">
+          <svg class="icon" width="32" height="32">
+            <use xlink:href="images/icons.svg#ight"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <main class="main">
+
+      <section class="product">
+        <div class="container">
+          <h2 class="user-name">
+            Hello Evano 👋🏼,
+          </h2>
+          <div class="product__content">
+            <div class="product__content-top">
+              <p class="product__content-title">
+                All Customers
+                <span class="product__content-subtitle">
+                  Active Members
+                </span>
+              </p>
+              <label class="product__content-label">
+                <svg class="icon search" width="24" height="24">
+                  <use xlink:href="images/icons.svg#search"></use>
+                </svg>
+                <input class="product__content-search" type="text" placeholder="Search">
+              </label>
+            </div>
+            <ul class="product__customers">
+              <li class="product__customers-item">
+                Customer Name
+              </li>
+              <li class="product__customers-item">
+                Company
+              </li>
+              <li class="product__customers-item">
+                Phone Number
+              </li>
+              <li class="product__customers-item">
+                Email
+              </li>
+              <li class="product__customers-item">
+                Country
+              </li>
+              <li class="product__customers-item">
+                Status
+              </li>
+            </ul>
+            <div class="customers">
+              <div class="customers__item">
+                <span class="customers__name">Jane Cooper</span>
+                <span class="customers__company">Microsoft</span>
+                <span class="customers__phone">(225) 555-0118</span>
+                <span class="customers__email">jane@microsoft.com</span>
+                <span class="customers__country">United States</span>
+                <span class="customers__status active"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Floyd Miles</span>
+                <span class="customers__company">Yahoo</span>
+                <span class="customers__phone">(205) 555-0100</span>
+                <span class="customers__email">floyd@yahoo.com</span>
+                <span class="customers__country">Kiribati</span>
+                <span class="customers__status inactive"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Ronald Richards</span>
+                <span class="customers__company">Adobe</span>
+                <span class="customers__phone">(302) 555-0107</span>
+                <span class="customers__email">ronald@adobe.com</span>
+                <span class="customers__country">Israel</span>
+                <span class="customers__status inactive"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Marvin McKinney</span>
+                <span class="customers__company">Tesla</span>
+                <span class="customers__phone">(252) 555-0126</span>
+                <span class="customers__email">marvin@tesla.com</span>
+                <span class="customers__country">Iran</span>
+                <span class="customers__status active"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Jerome Bell</span>
+                <span class="customers__company">Google</span>
+                <span class="customers__phone">(629) 555-0129</span>
+                <span class="customers__email">jerome@google.com</span>
+                <span class="customers__country">Réunion</span>
+                <span class="customers__status active"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Kathryn Murphy</span>
+                <span class="customers__company">Microsoft</span>
+                <span class="customers__phone">(406) 555-0120</span>
+                <span class="customers__email">kathryn@microsoft.com</span>
+                <span class="customers__country">Curaçao</span>
+                <span class="customers__status active"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Jacob Jones</span>
+                <span class="customers__company">Yahoo</span>
+                <span class="customers__phone">(208) 555-0112</span>
+                <span class="customers__email">jacob@yahoo.com</span>
+                <span class="customers__country">Brazil</span>
+                <span class="customers__status active"></span>
+              </div>
+              <div class="customers__item">
+                <span class="customers__name">Kristin Watson</span>
+                <span class="customers__company">Facebook</span>
+                <span class="customers__phone">(704) 555-0127</span>
+                <span class="customers__email">kristin@facebook.com</span>
+                <span class="customers__country">Åland Islands</span>
+                <span class="customers__status inactive"></span>
+              </div>
+            </div>
+            <div class="pagination">
+              <span class="pagination__text">Showing data 1 to 8 of 256K entries</span>
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <a class="pagination__prev pagination__link" href="#">
+                  </a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link active" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">3</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">4</a>
+                </li>
+                <li class="pagination__item">
+                  ...
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">40</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__next pagination__link" href="#">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  background-color: #FAFBFF;
+}
+
+.wrapper {
+  max-width: 1470px;
+  min-height: 100vh;
+  display: flex;
+  gap: 71px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 968px;
+  width: 100%;
+  padding: 41px 0;
+}
+
+.user-name {
+  font-size: 24px;
+  margin-bottom: 51px;
+}
+
+.logo {
+  display: flex;
+  align-items: end;
+  gap: 4px;
+
+  &__version {
+    color: #838383;
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;
+  }
+}
+
+.sidebar {
+  display: none;
+}
